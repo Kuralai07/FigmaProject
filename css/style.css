@@ -1,0 +1,140 @@
+@charset "UTF-8";
+header {
+  display: flex;
+  background-color: rgb(97, 214, 250);
+  align-items: center;
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+
+.burger-menu-box {
+  width: 20vw;
+  display: none;
+}
+
+img {
+  width: 100%;
+}
+
+.header-menu {
+  display: flex;
+  list-style-type: none;
+  color: black;
+  gap: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.logo-container {
+  width: 15vw;
+}
+
+.header-menu {
+  display: flex;
+  list-style-type: none;
+  color: black;
+  gap: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.letstock-wrapper {
+  margin-left: auto;
+}
+
+.submit {
+  background-color: chocolate;
+  border-radius: 10%;
+  border-style: none;
+  height: 2rem;
+}
+
+@media (max-width: 1023px) {
+  .header-menu {
+    flex-direction: column;
+  }
+}
+.first-section-container {
+  display: flex;
+}
+
+.color-text {
+  color: red;
+}
+
+.section-text {
+  font-size: 3.5rem;
+}
+
+/*Сурет экраннын 50% алады.  */
+.first-section-img {
+  width: 45vw;
+}
+
+.first-section-text {
+  width: 45vw;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: inherit;
+}
+
+.first-section {
+  display: flex;
+}
+
+@media (max-width: 1023px) {
+  .first-section {
+    flex-direction: column;
+  }
+  .first-section-text {
+    width: 85vw;
+  }
+  .first-section-img {
+    width: 85vw;
+  }
+}
+.container {
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+
+.second-section-img {
+  flex-basis: 50vw;
+}
+.second-section-img img {
+  width: 100%;
+}
+
+.section2-text2 {
+  color: darkgray;
+}
+
+.section2-text {
+  font-size: 3rem;
+}
+
+.second-section-text {
+  flex-basis: 50vw;
+}
+
+.second-section-container {
+  display: flex;
+}
+
+@media (max-width: 1023px) {
+  .second-section-container {
+    flex-direction: column;
+  }
+  .second-section-text {
+    width: 85vw;
+  }
+  .second-section-img {
+    width: 85vw;
+  }
+}/*# sourceMappingURL=style.css.map */

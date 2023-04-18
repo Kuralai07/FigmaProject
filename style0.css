@@ -1,0 +1,75 @@
+@charset "UTF-8";
+.color-text {
+  color: red;
+}
+
+.section-text {
+  font-size: 3.5rem;
+  /* width: 50%; */
+}
+
+/*Сурет экраннын 50% алады.  */
+.section-img {
+  width: 45vw;
+}
+
+.header-img img {
+  width: 100%;
+}
+
+.text-img {
+  width: 45vw;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: inherit;
+}
+
+.first-section {
+  display: flex;
+}
+
+@media (max-width: 1023px) {
+  .first-section {
+    flex-direction: column;
+  }
+  .text-img {
+    width: 85vw;
+  }
+  .section-img {
+    width: 85vw;
+  }
+}
+.header {
+  background-color: burlywood;
+}
+
+.header-menu {
+  display: flex;
+  list-style-type: none;
+  color: black;
+  gap: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.right-txt ul {
+  display: flex;
+  flex-direction: row;
+  gap: 5rems;
+}
+
+.submit {
+  background-color: chocolate;
+  border-radius: 10%;
+  border-style: none;
+  height: 2rem;
+}
+
+@media (max-width: 1023px) {
+  .header-menu {
+    flex-direction: column;
+  }
+}/*# sourceMappingURL=style.css.map */

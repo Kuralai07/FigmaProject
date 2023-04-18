@@ -1,0 +1,32 @@
+header {
+  display: flex;
+  background-color: rgb(97, 214, 250);
+  align-items: center;
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+
+.burger-menu-box {
+  width: 20vw;
+  display: none;
+}
+
+img {
+  width: 100%;
+}
+
+.header-menu {
+  display: flex;
+  list-style-type: none;
+  color: black;
+  gap: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.logo-container {
+  width: 15vw;
+}/*# sourceMappingURL=navbar.css.map */

@@ -1,0 +1,134 @@
+@import "./navbar.scss";
+
+// header start
+.header-menu {
+    display: flex;
+    list-style-type: none;
+    color: black;
+    gap: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;      
+}
+
+.letstock-wrapper {
+    margin-left: auto;
+}   
+    
+.submit {
+    background-color:  chocolate;
+    border-radius: 10%;
+    border-style: none;
+    height: 2rem;
+}
+    
+@media (max-width: 1023px) {
+    .header-menu {
+       flex-direction: column;
+    }
+}
+
+    // header end
+
+
+    // first section start
+
+.first-section-container {
+        display: flex ;
+    }
+.color-text{
+    color: red;
+}
+        
+.section-text{
+    font-size: 3.5rem;
+            
+}
+        
+ /*Сурет экраннын 50% алады.  */
+.first-section-img{
+    width: 45vw; 
+}
+                        
+.first-section-text{
+    width: 45vw;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: inherit;
+}
+        
+.first-section{
+    display: flex;
+}
+        
+@media (max-width: 1023px) {
+    .first-section {
+        flex-direction: column;
+    }
+    .first-section-text { 
+        width: 85vw;
+    }
+    .first-section-img{
+        width: 85vw; 
+    }
+}
+
+.container {
+    padding-left: 5vw;
+    padding-right: 5vw;
+    
+}
+
+    // first section end
+
+
+    //  second section start
+
+.second-section-img {
+    // width: 45vw;
+    flex-basis: 50vw;
+    img{
+        width: 100%;
+    } 
+}
+
+.section2-text2 {
+    color: darkgray;
+}
+
+.section2-text{
+    font-size: 3rem;
+}
+
+.second-section-text {
+    // padding-left: 5vw;
+    // padding-right: 5vw;
+    flex-basis: 50vw;
+    // justify-content: flex-end;
+    // flex-direction: inherit;
+    
+
+}
+
+.second-section-container {
+    display: flex;
+   
+}
+
+@media (max-width: 1023px) {
+    .second-section-container {
+        flex-direction: column;
+    }
+    .second-section-text { 
+        width: 85vw;
+    }
+    .second-section-img{
+        width: 85vw; 
+    }
+}
+
+    // second section end
+
+
