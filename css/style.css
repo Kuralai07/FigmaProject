@@ -84,12 +84,8 @@ a {
   flex-direction: inherit;
 }
 
-.first-section {
-  display: flex;
-}
-
 @media (max-width: 1023px) {
-  .first-section {
+  .first-section-container {
     flex-direction: column;
   }
   .first-section-text {

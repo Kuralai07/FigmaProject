@@ -38,13 +38,13 @@ a {
 .first-section-container {
         display: flex ;
     }
+
 .color-text{
     color: red;
 }
         
 .section-text{
-    font-size: 3.5rem;
-            
+    font-size: 3.5rem;       
 }
         
  /*Сурет экраннын 50% алады.  */
@@ -59,12 +59,12 @@ a {
     flex-direction: inherit;
 }
         
-.first-section{
-    display: flex;
-}
+// .first-section{
+//     display: flex;
+// }
         
 @media (max-width: 1023px) {
-    .first-section {
+    .first-section-container {
         flex-direction: column;
     }
     .first-section-text { 
