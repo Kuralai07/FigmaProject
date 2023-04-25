@@ -64,6 +64,8 @@ a {
   display: flex;
 }
 
+/* first section start */
+
 .color-text {
   color: red;
 }
@@ -72,7 +74,6 @@ a {
   font-size: 3.5rem;
 }
 
-/*Сурет экраннын 50% алады.  */
 .first-section-img {
   width: 45vw;
 }
@@ -99,6 +100,10 @@ a {
   padding-left: 5vw;
   padding-right: 5vw;
 }
+/* first section end */
+
+
+/* second section start */
 
 .second-section-img {
   flex-basis: 50vw;
@@ -134,3 +139,96 @@ a {
     width: 85vw;
   }
 }/*# sourceMappingURL=style.css.map */
+
+/* second section end */
+
+
+
+/* third section start */
+
+.third-section-container{
+ display: flex;
+}
+
+.third-section-text {
+ text-align: center; 
+ width: 100vw;
+}
+
+.section3-text {
+ font-size: 3rem;
+}
+
+.section3-text2 {
+  color: red;
+}
+
+.third-section-img1 {
+display: flex;
+}
+
+.section3-txt3 {
+  color: red;
+}
+
+.third-section-img2 {
+display: flex;
+}
+
+.section3-txt4 {
+  color: red;
+}
+
+@media (max-width: 1023px) {
+  .third-section-container {
+    flex-direction: column;
+  }
+  .third-section-text {
+    width: 85vw;
+  }
+  .third-section-img1 {
+    width: 85vw;
+  }
+
+/* third section end */
+
+
+/* fourth section start */
+
+.fourth-section-container {
+  display: flex;
+}
+
+.section4-text1 {
+  font-size: 3rem;]}
+
+.section4-txt1 {
+  color: darkgray;
+}
+
+.four-section-text {
+  display: flex;
+  width: 45vw;
+ 
+}
+
+.fourth-section-img {
+  width: 45vw;
+  
+}
+
+@media (max-width: 1023px) {
+  .fourth-section-container {
+    flex-direction: column;
+  }
+  .fourth-section-text {
+    width: 85vw;
+  }
+  .fourth-section-img {
+    width: 85vw;
+  }
+ 
+
+
+/* fourth section end */
+
