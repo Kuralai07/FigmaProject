@@ -49,7 +49,7 @@ a {
 }
 
 .submit {
-  background-color: rgb(253, 81, 13);
+  background-color: chocolate;
   border-radius: 10%;
   border-style: none;
   height: 2rem;
@@ -64,16 +64,15 @@ a {
   display: flex;
 }
 
-/* first section start */
-
 .color-text {
-  color:rgb(253, 81, 13);
+  color: red;
 }
 
 .section-text {
   font-size: 3.5rem;
 }
 
+/*Сурет экраннын 50% алады.  */
 .first-section-img {
   width: 45vw;
 }
@@ -100,10 +99,6 @@ a {
   padding-left: 5vw;
   padding-right: 5vw;
 }
-/* first section end */
-
-
-/* second section start */
 
 .second-section-img {
   flex-basis: 50vw;
@@ -138,129 +133,19 @@ a {
   .second-section-img {
     width: 85vw;
   }
-}/*# sourceMappingURL=style.css.map */
-
-/* second section end */
-
-
-
-/* third section start */
-
-.third-section-container{
- display: flex;
- flex-direction: column;
- margin-bottom: 2rem;
+}
+.third-section-container {
+  display: flex;
 }
 
 .third-section-text {
- text-align: center; 
- width: 100vw;
+  text-align: center;
 }
 
 .section3-text {
- font-size: 3rem;
-}
-
-.section3-text2 {
-  color:rgb(253, 81, 13);
-}
-
-.third-section-img1 {
-display: flex;
-justify-content: space-between;
-text-align: center;
-}
-
-.section3-txt3 {
-  color: rgb(253, 81, 13);
-}
-
-.third-section-img2 {
-display: flex;
-}
-
-.section3-txt4 {
-  color: rgb(253, 81, 13);
-  
-}
-
-.first-button {
-  background-color: #E83A64;
-  ;
-  border-radius:10%;
-  border-style: none;
-  height: 2.7rem;
-  width: 10vw;
-}
-
-
-
-
-@media (max-width: 1023px) {
-  .third-section-container {
-    flex-direction: column;
-  }
-  .third-section-text {
-    width: 85vw;
-  }
-  .third-section-img1 {
-    width: 85vw;
-    flex-direction: column;
-  }
-  
-  
-
-/* third section end */
-
-
-/* fourth section start */
-
-.fourth-section-container {
-  display: flex;
-}
-
-.section4-text1 {
-  font-size: 3rem;}
-
-.section4-txt1 {
-  color: darkgray;
-
-}
-
-.fourth-section-text {
-  display: flex;
-  width: 50vw;
- 
-}
-
-.fourth-section-img {
-  width: 50vw;
-  
-}
-
-@media (max-width: 1023px) {
-  .fourth-section-container {
-    flex-direction: column;
-  }
-  .fourth-section-text {
-    width: 85vw;
-  }
-  .fourth-section-img {
-    
-    width: 85vw;
-  }
-}
-  
-.fourth-section-container{
- display: flex !important;
-}
-
-.option-Title-text{
-  display: flex;
-  flex-direction: column;
-  width: 40vw;
   font-size: 3rem;
 }
 
-/* fourth section end */
-
+.section3-text2 {
+  color: red;
+}/*# sourceMappingURL=style_1.css.map */
